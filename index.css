@@ -1,0 +1,36 @@
+body {
+    background-color: #eee;
+    margin: 0;
+    display: flex;
+    place-items: center;
+    height: 100svh;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.letters {
+    display: grid;
+    grid-auto-flow: column;
+    place-items: center;
+    width: min-content;
+    gap: 8px;
+    align-content: center;
+}
+
+.letter {
+    font-family: monospace;
+    font-size: 4rem;
+    border-bottom: 4px solid black;
+    background-color: #e0e0e0;
+    padding: 0 12px;
+}
+
+.hidden {
+    color: transparent;
+}
+
+.message {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #777;
+}

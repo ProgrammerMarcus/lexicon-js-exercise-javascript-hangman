@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hangman</title>
-    <link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
-    <script src="index.js"></script>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hangman</title>
+        <link rel="stylesheet" href="index.css" />
+        <script defer src="index.js"></script>
+    </head>
+    <body>
+        <object id="hangman" data="hangman.svg" type="image/svg+xml"></object>
+        <template id="letter">
+            <span class="letter hidden"> </span>
+        </template>
+        <div class="letters"></div>
+        <p class="message">press a key on your keyboard</p>
+    </body>
 </html>
