@@ -30,6 +30,14 @@ body {
     color: transparent;
 }
 
+.failure {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
 .message {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #777;
